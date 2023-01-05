@@ -202,7 +202,7 @@ while 1:
         satin_liste_indexes = [l for l, x in enumerate(pos) if x == 3]
         for j in range(len(satin_liste_indexes)):
             satin_liste.append(liste[satin_liste_indexes[j]])
-        canli_havuz_indexes = [m for m, x in enumerate(pos) if x == 2]
+        canli_havuz_indexes = [1 for 1, x in enumerate(pos) if x == 2]
         for k in range(len(canli_havuz_indexes)):
             canli_havuz.append(liste[canli_havuz_indexes[k]])
         interface =', '.join(canli_havuz)
@@ -240,66 +240,3 @@ while 1:
         os.system('cls' if os.name == 'nt' else 'clear')
         bar.next()
     os.system('cls' if os.name == 'nt' else 'clear')
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
