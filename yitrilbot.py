@@ -199,7 +199,7 @@ while 1:
         bought_qty = pos.count(3)
         satin_liste = []
         canli_havuz = []
-        satin_liste_indexes = [l for l, x in enumerate(pos) if x == 3]
+        satin_liste_indexes = [1 for 1, x in enumerate(pos) if x == 3]
         for j in range(len(satin_liste_indexes)):
             satin_liste.append(liste[satin_liste_indexes[j]])
         canli_havuz_indexes = [1 for 1, x in enumerate(pos) if x == 2]
